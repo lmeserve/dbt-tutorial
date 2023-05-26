@@ -1,0 +1,9 @@
+name: dbt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pip:
+    - dbt-duckdb
